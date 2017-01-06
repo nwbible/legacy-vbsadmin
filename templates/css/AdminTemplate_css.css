@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #659ed0;
+	margin:0;
+	padding:0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+    text-align: text-align=center;
+	color:#000;
+	
+}
+
+BR.PrintBreak {
+		page-break-after: always;	
+}
+	
+.button {
+	font:Helvetica Neue, Helvetica, Arial, Sans Serif;
+	color:#8ed3ff;
+    text-align: center;
+	background-color: #000;
+	border: 1px solid #659ed0;
+	padding:0 2px;
+	height:20px;
+    width: auto;
+}
+
+.progressbar {
+	margin: 30px 0 30px 0;
+	text-align: center;
+	border: none; //solid 1px red;
+	
+}
+
+img.logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	
+}
+
+img.step1 {
+	padding-right: 20px;
+	
+}
+
+img.step2 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+img.step3 {
+	padding-left: 20px;
+
+}
+
+.error {
+  padding: 1px;
+  color: #ffc76b;
+  font-weight: normal;
+  font-size: 14px;
+  border: none; //dotted 1px yellow;
+}
+
+.warn {
+  text-align:center;
+  padding: 1px;
+  color: #ffc76b;
+  font-weight: normal;
+  font-size: 26px;
+  border: none; //dotted 1px yellow;
+}
+
+.verify_child {
+  font-style: normal;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  background-color: transparent;
+  border: none; //solid 1px gray;
+  position: relative;
+  float: left;
+  width: 24%;
+  
+}
+
+.verify_guardian {
+  font-style: normal;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  border: none; //solid 1px white;
+  background-color: transparent;
+  position: relative;
+  float: left;
+  width: 24%;
+}
+
+.verify_other {
+  font-style: normal;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  border: none; //solid 1px orange;
+  background-color: transparent;
+  position: relative;
+  float: left;
+  width: 24%;
+
+}
+
+.verify_medical {
+  font-style: normal;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  border: none; //solid 1px red;
+  background-color: transparent;
+  position: relative;
+  float: left;
+  width: 24%;
+
+}
+
+
+.wrapper {
+	margin: 0 auto;
+	border: none; //dashed 1px green;
+	
+		
+}
+
+.child_wrapper {
+	margin: 0 auto;
+	margin-left: 50px;
+	border: none; //dashed 1px purple;
+	background: none;
+
+}
+
+.verify_buttons {
+	margin: 0 auto;
+	border: none;//double #33FF00;
+	text-align: center;
+	clear: both;
+	background: transparent;
+	display: block;
+	
+}
+
+/* RADIO button field attributes */
+
+fieldset.radio {
+	border: none; //double white;
+	
+}
+
+legend.radio {  
+	font-style: normal;
+	color: #fff;
+	font-weight: normal;
+	border: none; //double 2px orange;
+	text-align: left;
+	padding-left: 10px;
+
+} 
+
+
+label.radio {
+	border: none; //dotted 2px red;
+	padding: 2px;
+	float: left;
+	display: block;
+	width: 115px;	
+}
+
+input.radio
+{
+	border: none; //dashed 2px yellow;
+	display: block;
+	float: right;
+	clear: both;
+	margin: 0 5px;
+}
+
+/* END RADIO button attributes */
+
+/* General FORM attributes */
+form {
+margin: 0;
+padding: 0;
+width: 100%;
+
+}
+
+label {
+	display: block;
+	float: left;
+	clear: left;	
+	padding: 1px;
+	margin-right: 0.5em;
+	text-align: right;
+	width: 100px;
+	border: none; //solid 2px black;
+
+}
+
+input
+{
+	margin: auto;
+	display: block;
+	float: left;
+	padding: 2px;
+	
+}
+
+select
+{
+	float: left;
+	border: none; 1px solid white;
+	padding: 2px;
+
+}
+
+fieldset {
+	padding: 10px;
+	margin: 0;
+	margin-top: 15px;
+	float: left;  
+	clear: left;
+	border: none;  
+
+	
+}
+
+legend {  
+	margin-left: 1em;  
+	font-style: normal;
+	padding: 2px;
+	color: #ffc76b;
+	font-weight: bold;
+} 
+
+fieldset ol {  
+	padding: 0.5em 0.5em 0 1em;  
+	list-style: none;
+
+} 
+
+fieldset li {  
+	padding-bottom: 0.5em; 
+	float: left;
+	clear: left;
+	width: 100%;
+	
+} 
+
+fieldset.submit {  
+	color: #fff;
+	float: none;  
+	width: auto;  
+	border: 0 none #FFF;  
+	padding-left: 25em; 
+
+}
+
+/* END general FORM attributes */
+
+.dropdownbar {
+	display: block;
+	margin: 5px 30px 5px 30px;
+				
+}
+
+input.pagenav
+{
+	display: block;
+	float: left;
+	margin-left: 30%;
+	overflow: visible;
+		
+}

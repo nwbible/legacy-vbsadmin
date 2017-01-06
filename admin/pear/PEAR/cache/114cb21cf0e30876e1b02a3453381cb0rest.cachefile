@@ -1,0 +1,10 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:32:"/rest/p/spreadsheet_excel_writer";}s:8:"_content";s:24:"Spreadsheet_Excel_Writer";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:3:"0.7";s:2:"st";s:4:"beta";s:1:"l";s:4:"LGPL";s:1:"m";s:7:"xnoguer";s:1:"s";s:41:"Package for generating Excel spreadsheets";s:1:"d";s:384:"Spreadsheet_Excel_Writer was born as a porting of the Spreadsheet::WriteExcel Perl module to PHP. 
+It allows writing of Excel spreadsheets without the need for COM objects.
+It supports formulas, images (BMP) and all kinds of formatting for text and cells.
+It currently supports the BIFF5 format (Excel 5.0), so functionality appeared in the latest Excel versions is not yet available.";s:2:"da";s:19:"2004-02-27 17:31:55";s:1:"n";s:322:"New features:
+ - allow setting temp dir other than default using setTempDir() (using OLE 5.0 for this).
+ - added setMerge() for merging (only for experimental Excel97 generation)
+ - added setCountry() method.
+ - added setLocked() method.
+Bug fixes:
+ - Fixed bug #415, typo in BIFF8 code (papercrane at reversefold dot com)";s:1:"f";s:5:"55895";s:1:"g";s:52:"http://pear.php.net/get/Spreadsheet_Excel_Writer-0.7";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:15:"package.0.7.xml";}}}

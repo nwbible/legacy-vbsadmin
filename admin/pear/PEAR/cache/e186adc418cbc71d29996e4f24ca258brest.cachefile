@@ -1,0 +1,17 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:32:"/rest/p/spreadsheet_excel_writer";}s:8:"_content";s:24:"Spreadsheet_Excel_Writer";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"0.9.0";s:2:"st";s:4:"beta";s:1:"l";s:4:"LGPL";s:1:"m";s:7:"xnoguer";s:1:"s";s:41:"Package for generating Excel spreadsheets";s:1:"d";s:383:"Spreadsheet_Excel_Writer was born as a porting of the Spreadsheet::WriteExcel Perl module to PHP.
+It allows writing of Excel spreadsheets without the need for COM objects.
+It supports formulas, images (BMP) and all kinds of formatting for text and cells.
+It currently supports the BIFF5 format (Excel 5.0), so functionality appeared in the latest Excel versions is not yet available.";s:2:"da";s:19:"2005-11-21 22:11:59";s:1:"n";s:870:"New features:
+- adding new methods Format::setVAlign() and Format::setHAlign()
+- adding support for uncapitalized functions in formulas (ej: "=sum(B27:B31)")
+- adding support for different charsets with method Worksheet::setInputEncoding()
+- adding support for sheetnames longer than 31 chars when using setVersion(8).
+Bug fixes:
+- Fixed Bug #1796, wrong regular expression in _writeUrlInternal
+- Fixed Bug #2363, wrong export filename with spaces
+- Fixed Bug #2425, Error using writeFormula with Now() and TODAY()
+- Fixed Bug #2876, German Umlauts destroy sheet references
+- Fixed Bug #1706, Formulas refer to other Worksheets with "spezial" names don't work
+- Fixed Bug #2748, setMargins(), setHeader() and setFooter() work in excel but not in openoffice.
+- Fixed Bug #5698, preg_replace in _writeUrlInternal
+- Fixed Bug #2823, Inpropper results from writeUrl() method";s:1:"f";s:5:"55541";s:1:"g";s:54:"http://pear.php.net/get/Spreadsheet_Excel_Writer-0.9.0";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.0.9.0.xml";}}}
